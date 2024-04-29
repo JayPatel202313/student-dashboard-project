@@ -56,6 +56,13 @@ const StudentCard = ({ student }) => {
                             <p>{student.dob}</p>
                             <button onClick={setRead}>Show More...</button>
                         </div>
+                        <div className="track">
+                                <p>{student.certifications.resume && student.certifications.linkedin  && student.certifications.github  
+                                && student.certifications.mockInterview && student.codewars.current.total > 600
+                                 ? "On Track to Graduate" 
+                                : "Off Track"}
+                                </p>
+                            </div>
                     </div>
                 </>)
                 : (<>
@@ -98,9 +105,9 @@ const StudentCard = ({ student }) => {
 
                             <div className="third">
                                 <h4>Certifications</h4>
-                                <p>Assessments: {student.certifications.resume ? '\u2705' : '\u274C'} </p>
+                                <p>Resume: {student.certifications.resume ? '\u2705' : '\u274C'} </p>
                                 <p>Linkedln: {student.certifications.linkedin ? '\u2705' : '\u274C'} </p>
-                                <p>Mock Interview: {student.certifications.mockIntervew ? '\u2705' : '\u274C'} </p>
+                                <p>Mock Interview: {student.certifications.mockInterview ? '\u2705' : '\u274C'} </p>
                                 <p>GitHub: {student.certifications.github ? '\u2705' : '\u274C'} </p>
                             </div>
 
