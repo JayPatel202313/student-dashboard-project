@@ -1,0 +1,67 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    
+    display:grid;
+    grid-template-columns: 7fr 1fr 13fr 1fr;
+    grid-template-rows: 9fr;
+    margin-top: 50px;
+  }
+
+.cohort{
+    grid-row: 2/3;
+    grid-column: 1/2;
+  
+    background-color: white;
+
+    justify-content: center;
+    color:black;
+}
+
+.studentlist{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color: white;
+    color:black;
+}
+
+.studentlist > p {
+    margin-left: 40px;
+    font-weight: bold;
+    padding:2px;
+}
+
+.studentlist > h3 {
+    padding: 0px;
+    margin:0px;
+}
+.cohort > h3{
+  margin-left: 50px;
+}
+.cohortcontainer{
+    padding:10px;
+    margin:10px;
+
+}
+
+.cohortcontainer > button {
+    border:none;
+    background-color: white;
+    padding:10px;
+    margin-left: 20px;
+    
+}
+
+.seperator{
+    border:green;
+    margin:auto auto;
+    width:500px;
+    height:2px;
+    background-color: green;
+    
+}

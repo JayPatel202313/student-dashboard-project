@@ -1,0 +1,8 @@
+.navBar{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    background-color: rgb(86, 162, 86);
+    display:flex;
+    justify-content: center;
+    color:white;
+}
