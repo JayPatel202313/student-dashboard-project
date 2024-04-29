@@ -1,5 +1,5 @@
 # Jay Patel Dashboard Project
-# This projected is hosted on Netlify at the following line ().
+# This projected is hosted on Netlify at the following line (https://resonant-malabi-8a86ba.netlify.app/).
 # Completed the following Front end requirements listed on the gitHub site.
 # I will write comments next to each requirement below
 # From the stretch goals I did the following:
